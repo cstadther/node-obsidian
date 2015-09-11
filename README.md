@@ -110,7 +110,7 @@ The callback for all functions is:
     Fires after the API has full initialized.
     
 #####UserAuthorizationReady
-    Fires after the request token has been retrieved and they system is read to recieve the OAuth callback.
+    Fires after the request token has been retrieved and the system is ready to recieve the OAuth callback.
     
 #####AfterOAuthCallback
     Fires after the user has been directed to the authorize page and the site had redirected the user back 
