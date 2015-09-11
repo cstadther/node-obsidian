@@ -41,6 +41,7 @@ The callback for all functions is:
     }
     
 **obsidianAPI.api.user.me(format, callback)**
+
 **obsidianAPI.api.user.show(userid, format, callback)**  
 
 **obsidianAPI.api.campaign.show(campaignid, format, callback)**
