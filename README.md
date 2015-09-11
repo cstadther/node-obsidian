@@ -39,6 +39,7 @@ The callback for all functions is:
     function(err, data) {
         /* data is json data */
     }
+    
 **obsidianAPI.api.user.me(format, callback)**
 **obsidianAPI.api.user.show(userid, format, callback)**  
 
@@ -101,7 +102,7 @@ The callback for all functions is:
 	}
 **obsidianAPI.api.dst.submit(dstid, format, callback)**
 
-#Events
+###Events
 
 AfterInitialize
 UserAuthorizationReady
