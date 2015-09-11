@@ -1,0 +1,27 @@
+{
+  "name": "node-obsidian",
+  "description": "A full javascript api for Obsidian Portal",
+  "keywords": [
+    "obsidianportal.com",
+    "api"
+  ],
+  "version": "0.1.0",
+  "author": "Christopher Stadther <c.stadther@gmail.com> (http://www.twitter.com/cstad/)",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "dependencies": {
+    "oauth": "^0.9.13"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cstadther/node-obsidian.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cstadther/node-obsidian/issues"
+  },
+  "homepage": "https://github.com/cstadther/node-obsidian"
+}
