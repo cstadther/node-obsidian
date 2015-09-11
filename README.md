@@ -35,21 +35,21 @@ npm install node-obsidian
 
 All of the functions first check for a valid token.  If one is not found it tries to obtain a new one.
 
-The callback for all functions is:
+    The callback for all functions is:
     function(err, data) {
-        /* data is json data */
+    /* data is json data */
     }
     
-**obsidianAPI.api.user.me(format, callback)**
+#####**obsidianAPI.api.user.me(format, callback)**
+#####**obsidianAPI.api.user.show(userid, format, callback)**  
 
-**obsidianAPI.api.user.show(userid, format, callback)**  
+#####**obsidianAPI.api.campaign.show(campaignid, format, callback)**
+#####**obsidianAPI.api.campaign.characters.list(campaignid, format, callback)**
+#####**obsidianAPI.api.campaign.characters.show(campaignid, characterid, format, callback)**
 
-**obsidianAPI.api.campaign.show(campaignid, format, callback)**
-**obsidianAPI.api.campaign.characters.list(campaignid, format, callback)**
-**obsidianAPI.api.campaign.characters.show(campaignid, characterid, format, callback)**
+#####**obsidianAPI.api.campaign.characters.create(campaignid, characterdata, format, callback)**
+#####**obsidianAPI.api.campaign.characters.update(campaignid, characterid, characterdata, format, callback)**
 
-**obsidianAPI.api.campaign.characters.create(campaignid, characterdata, format, callback)**
-**obsidianAPI.api.campaign.characters.update(campaignid, characterid, characterdata, format, callback)**
 	Character Data Format:
 	{
 		'character' : 
@@ -69,13 +69,13 @@ The callback for all functions is:
 		}
 	}
 
-**obsidianAPI.api.campaign.characters.delete(campaignid, characterid, format, callback)**
+#####**obsidianAPI.api.campaign.characters.delete(campaignid, characterid, format, callback)**
 
-**obsidianAPI.api.campaign.wikis.list(campaignid, format, callback)**
-**obsidianAPI.api.campaign.wikis.show(campaignid, wikiid, format, callback)**
+#####**obsidianAPI.api.campaign.wikis.list(campaignid, format, callback)**
+#####**obsidianAPI.api.campaign.wikis.show(campaignid, wikiid, format, callback)**
 
-**obsidianAPI.api.campaign.wikis.create(campaignid, wikidata, format, callback)**
-**obsidianAPI.api.campaign.wikis.update(campaignid, wikiid, wikidata, format, callback)**
+#####**obsidianAPI.api.campaign.wikis.create(campaignid, wikidata, format, callback)**
+#####**obsidianAPI.api.campaign.wikis.update(campaignid, wikiid, wikidata, format, callback)**
 	Wiki Data Format:
 	{
 		'wiki_page' : 
@@ -87,11 +87,11 @@ The callback for all functions is:
 		}
 	}
 
-**obsidianAPI.api.campaign.wikis.delete(campaignid, wikiid, format, callback)**
+#####**obsidianAPI.api.campaign.wikis.delete(campaignid, wikiid, format, callback)**
 
-**obsidianAPI.api.dst.list(format, callback)**
-**obsidianAPI.api.dst.show(dstid, format, callback)**
-**obsidianAPI.api.dst.update(dstid, dstdata, format, callback)**
+#####**obsidianAPI.api.dst.list(format, callback)**
+#####**obsidianAPI.api.dst.show(dstid, format, callback)**
+#####**obsidianAPI.api.dst.update(dstid, dstdata, format, callback)**
 	Dynamic Stylesheet Data Format:
 	{
 		'dynamic_sheet_template' : 
@@ -101,11 +101,11 @@ The callback for all functions is:
 			'javascript_submitted' : 'Different unapproved Javascript here...'
 		}
 	}
-**obsidianAPI.api.dst.submit(dstid, format, callback)**
+#####**obsidianAPI.api.dst.submit(dstid, format, callback)**
 
 ###Events
 
-AfterInitialize
-UserAuthorizationReady
-AfterOAuthCallback
-AfterAccessToken
+####AfterInitialize
+####UserAuthorizationReady
+####AfterOAuthCallback
+####AfterAccessToken
