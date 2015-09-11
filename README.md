@@ -35,7 +35,8 @@ npm install node-obsidian
 
 All of the functions first check for a valid token.  If one is not found it tries to obtain a new one.
 
-    The callback for all functions is:
+The callback for all functions is:
+
     function(err, data) {
     /* data is json data */
     }
