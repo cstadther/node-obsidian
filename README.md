@@ -1,12 +1,6 @@
 ﻿# node-obsidian
 Node.js wrapper for the Obsidian Portal API
 
-AfterInitialize
-UserAuthorizationReady
-AfterOAuthCallback
-AfterAccessToken
-
-
 This is an API Wrapper for the Obsidian Portal API
 * OAuth Authentication/Authorization 
 * Interact with Obsidian Portal REST API
@@ -107,3 +101,9 @@ The callback for all functions is:
 	}
 **obsidianAPI.api.dst.submit(dstid, format, callback)**
 
+#Events
+
+AfterInitialize
+UserAuthorizationReady
+AfterOAuthCallback
+AfterAccessToken
